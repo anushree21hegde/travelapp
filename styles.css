@@ -9,8 +9,14 @@ body {
 }
 
 .address{
-    text-align: center;
+    text-align: center; /* Center horizontally */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%; /* Ensure it fills the height of its parent */
 }
+
+
 
 .gallery .col-md-4 {
     margin-top: 20px; 
