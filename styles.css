@@ -8,16 +8,6 @@ body {
 
 }
 
-.address{
-    text-align: center; /* Center horizontally */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 100%; /* Ensure it fills the height of its parent */
-}
-
-
-
 .gallery .col-md-4 {
     margin-top: 20px; 
 }
@@ -95,17 +85,11 @@ footer {
 }
 
 .contact-details, .address {
-    width: 45%;
+    width: 100%;
 }
 
-.contact-details h3, .address h3 {
-    margin-bottom: 10px;
+.address{
     text-align: center;
-}
-
-.phone-symbol, .email-symbol {
-    font-size: 20px;
-    margin-right: 5px;
 }
 
 
