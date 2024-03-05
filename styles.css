@@ -8,6 +8,10 @@ body {
 
 }
 
+.address{
+    text-align: center;
+}
+
 .gallery .col-md-4 {
     margin-top: 20px; 
 }
